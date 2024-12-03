@@ -24,11 +24,11 @@
                 minlength:10,
                 maxlength:10
               },
-              address: required,
+              address: {required : true},
               addressnumber:{
                 min:1, required : true
               },
-              city: required,
+              city: {required : true},
               zip:{
                 required : true,
                 regex: "^[0-9]{2}-[0-9]{3}"
